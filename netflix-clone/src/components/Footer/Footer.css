@@ -1,0 +1,50 @@
+.Footer_outer_container {
+background-color: #111;
+color: gray;
+display: flex;
+justify-content: center;
+} 
+.Footer_inner_container {
+  width: 60%;
+ /* background-color: red; */
+}
+.footer_icons {
+    /* background-color: blue; */
+    width: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: #fff;
+}
+.footer_data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* background-color: green; */
+}
+.footer_data ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12vh;
+    /* background-color: blue; */
+}
+.footer_data ul li {
+    cursor: pointer;
+}
+.service_code {
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.copy_write {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
